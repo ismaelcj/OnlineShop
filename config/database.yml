@@ -5,22 +5,13 @@
 #   gem 'sqlite3'
 development:
   adapter: mysql2
-<<<<<<< HEAD
   encoding: utf8
-=======
-  encodng: utf8
->>>>>>> 0088246cb3106c8ae2adfcb890740e9cdafdee60
   reconnect: false
   database: online_shop
   pool: 5
   username: root
-<<<<<<< HEAD
   password: icalvo
   socket: /Applications/MAMP/tmp/mysql/mysql.sock
-=======
-  password: 
-  socket: /tmp/mysql.sock
->>>>>>> 0088246cb3106c8ae2adfcb890740e9cdafdee60
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".

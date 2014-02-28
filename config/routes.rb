@@ -1,9 +1,5 @@
 OnlineShop::Application.routes.draw do
-<<<<<<< HEAD
   resources :products
-=======
-  resources :productos
->>>>>>> 0088246cb3106c8ae2adfcb890740e9cdafdee60
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
