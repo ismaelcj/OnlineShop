@@ -14,3 +14,30 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
+window.onload = function(){
+	addItem = document.getElementById('add_item');
+	addItem.addEventListener('click', addLineItem);
+
+	btnsRemoveRow = document.getElementsByName('remove_row');
+	for (var i = 0; i < btnsRemoveRow.length; i++) {
+		btnsRemoveRow[i].setAttribute('onclick', "removeRow();");
+	}
+};
+
+function addLineItem(){
+	line 				= document.getElementById('line_item');
+	parent 				= line.parentNode;
+	line_copy 			= line.cloneNode(true);
+	line_copy_inputs	= line_copy.getElementsByTagName('input');
+
+	for (var i = 0; i < line_copy_inputs.length; i++) {
+		line_copy_inputs[i].value = "";
+	}
+	
+	parent.appendChild(line_copy);
+}
+
+function removeRow(){
+	event.target.parentNode.remove();
+}
