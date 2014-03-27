@@ -21,7 +21,7 @@ window.onload = function(){
 
 	btnsRemoveRow = document.getElementsByName('remove_row');
 	for (var i = 0; i < btnsRemoveRow.length; i++) {
-		btnsRemoveRow[i].setAttribute('onclick', "removeRow();");
+		btnsRemoveRow[i].setAttribute('onclick', "removeRow(event);");
 	}
 };
 
@@ -38,6 +38,6 @@ function addLineItem(){
 	parent.appendChild(line_copy);
 }
 
-function removeRow(){
-	event.target.parentNode.remove();
+function removeRow(ev){
+	ev.target.parentNode.remove();
 }
