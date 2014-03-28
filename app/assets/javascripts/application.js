@@ -15,20 +15,15 @@
 //= require turbolinks
 //= require_tree .
 
-window.onload = function(){
-	addItem = document.getElementById('add_item');
-	addItem.addEventListener('click', addLineItem);
-
-	btnsRemoveRow = document.getElementsByName('remove_row');
-	for (var i = 0; i < btnsRemoveRow.length; i++) {
-		btnsRemoveRow[i].setAttribute('onclick', "removeRow(event);");
-	}
-};
 
 function addLineItem(){
 	line 				= document.getElementById('line_item');
+	//num					= parseInt(line.id.split('_')[2]);
+	num 				= new Date().getTime();
 	parent 				= line.parentNode;
 	line_copy 			= line.cloneNode(true);
+	line_copy.id 		= "line_item_" + num;
+	console.debug(line_copy.id);
 	line_copy_inputs	= line_copy.getElementsByTagName('input');
 
 	for (var i = 0; i < line_copy_inputs.length; i++) {
