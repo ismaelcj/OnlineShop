@@ -18,7 +18,6 @@
 
 function addLineItem(){
 	line 				= document.getElementById('line_item');
-	//num					= parseInt(line.id.split('_')[2]);
 	num 				= new Date().getTime();
 	parent 				= line.parentNode;
 	line_copy 			= line.cloneNode(true);
@@ -34,5 +33,6 @@ function addLineItem(){
 }
 
 function removeRow(ev){
-	ev.target.parentNode.remove();
+	ev.target.previousSibling.previousSibling.value = "1";
+	ev.target.parentNode.style.display = 'none';
 }
