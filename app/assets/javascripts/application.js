@@ -27,6 +27,8 @@ function addLineItem(){
 
 	for (var i = 0; i < line_copy_inputs.length; i++) {
 		line_copy_inputs[i].value = "";
+		new_name = $(line_copy_inputs[i]).attr('name').replace('0', num); 
+		$(line_copy_inputs[i]).attr('name', new_name);
 	}
 	
 	parent.appendChild(line_copy);

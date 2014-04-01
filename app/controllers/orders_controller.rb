@@ -20,6 +20,7 @@ class OrdersController < ApplicationController
 
   # GET /orders/1/edit
   def edit
+    @order.line_items.build
   end
 
   # POST /orders

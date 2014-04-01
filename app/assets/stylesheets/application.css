@@ -11,3 +11,25 @@
  *= require_self
  *= require_tree .
  */
+
+table td{
+	padding: 0 1em
+}
+table td{
+	text-align: center;
+}
+table td:first-of-type{
+	text-align: left;
+	padding-left: 0.5em;
+}
+table th {
+	background-color: #666;
+	color: #fff;
+	padding: 0.5em;
+}
+table tr:nth-child(odd){
+	background-color: #ccc;
+}
+table tr:hover{
+	background-color: #f66;
+}

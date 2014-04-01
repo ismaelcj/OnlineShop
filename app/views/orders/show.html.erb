@@ -30,5 +30,10 @@
   <%= @order.customer_lastname %>
 </p>
 
+<p>
+  <strong>Line Item</strong>
+  <%= render 'show_line_items_fields' %>
+</p>
+
 <%= link_to 'Edit', edit_order_path(@order) %> |
 <%= link_to 'Back', orders_path %>
