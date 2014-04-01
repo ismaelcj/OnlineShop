@@ -30,9 +30,14 @@
   <%= @order.customer_lastname %>
 </p>
 
+
 <p>
   <strong>Line Item</strong>
-  <%= render 'show_line_items_fields' %>
+  <% unless @order.line_items.size == 0 %>
+    <%= render 'show_line_items_fields' %>
+  <% else %>
+    No items
+  <% end %>
 </p>
 
 <%= link_to 'Edit', edit_order_path(@order) %> |
