@@ -22,14 +22,19 @@ function addLineItem(){
 	parent 				= line.parentNode;
 	line_copy 			= line.cloneNode(true);
 	line_copy.id 		= "line_item_" + num;
-	console.debug(line_copy.id);
 	line_copy_inputs	= line_copy.getElementsByTagName('input');
+	line_copy_select	= line_copy.getElementsByTagName('select');
+	
 
 	for (var i = 0; i < line_copy_inputs.length; i++) {
 		line_copy_inputs[i].value = "";
+		console.debug("inputs: " + $(line_copy_inputs[i]).length);
 		new_name = $(line_copy_inputs[i]).attr('name').replace('0', num); 
 		$(line_copy_inputs[i]).attr('name', new_name);
 	}
+
+	new_name = $(line_copy_select[0]).attr('name').replace('0', num); 
+	$(line_copy_select[0]).attr('name', new_name);
 	
 	parent.appendChild(line_copy);
 }
