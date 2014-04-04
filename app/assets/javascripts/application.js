@@ -28,7 +28,6 @@ function addLineItem(){
 
 	for (var i = 0; i < line_copy_inputs.length; i++) {
 		line_copy_inputs[i].value = "";
-		console.debug("inputs: " + $(line_copy_inputs[i]).length);
 		new_name = $(line_copy_inputs[i]).attr('name').replace('0', num); 
 		$(line_copy_inputs[i]).attr('name', new_name);
 	}
