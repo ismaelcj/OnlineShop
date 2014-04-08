@@ -1,0 +1,635 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pi",
+				"picking_ids"
+			],
+			[
+				"Pi",
+				"Picking"
+			],
+			[
+				"vpo",
+				"vpo	RSpec \"shoulda\" validate_presence_of"
+			],
+			[
+				"def",
+				"def	def … end"
+			],
+			[
+				"cla",
+				"cla	class .. end"
+			],
+			[
+				"move_",
+				"move_id"
+			],
+			[
+				"move_id",
+				"moves_ids"
+			],
+			[
+				"moves",
+				"moves_ids"
+			],
+			[
+				"company",
+				"company_id"
+			],
+			[
+				"com",
+				"company_id"
+			],
+			[
+				"move",
+				"move_type"
+			],
+			[
+				"ord",
+				"order"
+			],
+			[
+				"order",
+				"order_obj"
+			],
+			[
+				"sal",
+				"sale_id"
+			],
+			[
+				"par",
+				"partner_id_copy"
+			],
+			[
+				"mo",
+				"move_lines"
+			],
+			[
+				"pro",
+				"product_ids"
+			],
+			[
+				"ids",
+				"ids2"
+			],
+			[
+				"activ",
+				"active_promos"
+			],
+			[
+				"promotion",
+				"promotion_rule"
+			],
+			[
+				"action_pr",
+				"action_prod_x_get_y"
+			],
+			[
+				"cre",
+				"create_y_line"
+			],
+			[
+				"action_",
+				"action_prod_disc_perc"
+			],
+			[
+				"evaluat",
+				"evaluate"
+			],
+			[
+				"PromotionR",
+				"PromotionsRulesConditionsExprs"
+			],
+			[
+				"apply",
+				"apply_promotions"
+			],
+			[
+				"exe",
+				"execute_actions"
+			],
+			[
+				"lin",
+				"line_copy_inputs"
+			],
+			[
+				"line_copy",
+				"line_copy_select"
+			],
+			[
+				"defa",
+				"default_code"
+			],
+			[
+				"for",
+				"form"
+			],
+			[
+				"get",
+				"getElementsByTagName"
+			],
+			[
+				"line",
+				"line_item_"
+			],
+			[
+				"add",
+				"addItem"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "config/routes.rb",
+			"settings":
+			{
+				"buffer_size": 1976,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/helpers/sessions_helper.rb",
+			"settings":
+			{
+				"buffer_size": 26,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/sessions_controller.rb",
+			"settings":
+			{
+				"buffer_size": 488,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/sessions/index.html.erb",
+			"settings":
+			{
+				"buffer_size": 70,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"Snippet: class",
+				"Snippet: class .. end"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"bar",
+				"View: Toggle Status Bar"
+			],
+			[
+				"toogl",
+				"View: Toggle Open Files in Side Bar"
+			]
+		],
+		"width": 530.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"toggle_side_bar",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/isma/rails/railsbridge/OnlineShop/app/controllers/users_controller.rb",
+		"/home/isma/rails/railsbridge/OnlineShop/app/views/sessions/_form.html.erb",
+		"/home/isma/develop/prueba_picking/wizard/sale_merge_picking.py",
+		"/home/isma/develop/reporting_donspare/report/sale_report.py",
+		"/home/isma/develop/reporting_donspare/report/sale_report_view.xml",
+		"/home/isma/develop/picking_report/report/sale_report_view.xml",
+		"/home/isma/openerpsrv/modules/sale/sale.py",
+		"/home/isma/develop/prueba_picking/wizard/sale_merge_picking_view.xml",
+		"/home/isma/develop/picking_report/report/parse_report.py",
+		"/home/isma/develop/sale_merge_picking/wizard/sale_merge_picking.py",
+		"/home/isma/develop/prueba_picking/__openerp__.py",
+		"/home/isma/develop/prueba_picking/__init__.py",
+		"/home/isma/develop/prueba_picking/sale.py",
+		"/home/isma/develop/stock_merge_picking/wizard/merge_picking.py",
+		"/home/isma/develop/reporting_picking/report/parse_report.py",
+		"/home/isma/develop/sale_report/sale_report.py",
+		"/home/isma/develop/sale_report/__openerp__.py",
+		"/home/isma/develop/sale_report/view/sale_report_view.xml",
+		"/home/isma/develop/sale_report/duplicated_sale_reference.py",
+		"/home/isma/develop/reporting_picking/report/sale_report_view.xml",
+		"/home/isma/Descargas/reporting_donspare/__openerp__.py",
+		"/home/isma/rails/railsbridge/OnlineShop/config/routes.rb",
+		"/home/isma/rails/railsbridge/OnlineShop/app/views/sessions/login.html.erb",
+		"/home/isma/rails/railsbridge/OnlineShop/app/controllers/sessions_controller.rb",
+		"/home/isma/rails/railsbridge/OnlineShop/app/views/sessions/_login_form.html.erb",
+		"/home/isma/rails/railsbridge/OnlineShop/app/models/user.rb",
+		"/home/isma/Descargas/reporting_donspare/report/sale_report_view.xml",
+		"/home/isma/Descargas/reporting_donspare/report/sale_report.py",
+		"/home/isma/Descargas/reporting_donspare/report/parse_report.py",
+		"/home/isma/rails/railsbridge/OnlineShop/app/views/session/_login_form.html.erb",
+		"/home/isma/rails/railsbridge/OnlineShop/app/views/session/login.html.erb",
+		"/home/isma/rails/railsbridge/OnlineShop/app/controllers/session_controller.rb",
+		"/home/isma/rails/railsbridge/OnlineShop/app/controllers/session_controller_controller.rb",
+		"/home/isma/develop/duplicated_sale_reference/duplicated_sale_refence_view.xml",
+		"/home/isma/develop/duplicated_sale_reference/i18n/es.po",
+		"/home/isma/develop/duplicated_sale_reference/__init__.py",
+		"/home/isma/develop/duplicated_sale_reference/__openerp__.py",
+		"/home/isma/develop/duplicated_sale_reference_ext/__openerp__.py",
+		"/home/isma/develop/duplicated_sale_reference_ext/duplicated_sale_reference_ext.py",
+		"/home/isma/develop/duplicated_sale_reference_ext/duplicated_sale_refence_view.xml",
+		"/home/isma/Escritorio/tiempos",
+		"/home/isma/develop/duplicated_sale_reference_ext/__init__.py",
+		"/home/isma/rails/railsbridge/OnlineShop/app/views/users/index.html.erb",
+		"/home/isma/rails/railsbridge/OnlineShop/app/views/users/show.html.erb",
+		"/home/isma/rails/railsbridge/OnlineShop/app/views/users/_form.html.erb",
+		"/home/isma/develop/sale_merge_picking/stock.py",
+		"/home/isma/rails/railsbridge/OnlineShop/db/migrate/20140407080900_remove_password_from_users.rb",
+		"/home/isma/rails/railsbridge/OnlineShop/db/migrate/20140404132447_create_users.rb",
+		"/home/isma/rails/railsbridge/OnlineShop/Gemfile",
+		"/home/isma/rails/railsbridge/OnlineShop/Gemfile.lock",
+		"/home/isma/rails/railsbridge/OnlineShop/db/migrate/20140404113725_create_users.rb",
+		"/home/isma/rails/railsbridge/OnlineShop/db/migrate/drop_users.rb",
+		"/home/isma/rails/railsbridge/OnlineShop/app/views/cosos/_form.html.erb",
+		"/home/isma/develop/sale_merge_picking/__init__.py",
+		"/home/isma/.config/sublime-text-3/Packages/User/trailing_spaces.sublime-settings",
+		"/home/isma/.config/sublime-text-3/Packages/TrailingSpaces/trailing_spaces.sublime-settings",
+		"/home/isma/develop/sale_merge_picking/wizard/sale_merge_picking_view.xml",
+		"/home/isma/develop/sale_merge_picking/view/stock_view.xml",
+		"/home/isma/bazaar/eoc-extra-addons-6.1/stock_picking_reopen/stock.py",
+		"/home/isma/develop/ismael_bookstore/wizard/createclient.py",
+		"/home/isma/develop/sale_merge_picking/wizard/__init__.py",
+		"/home/isma/develop/sale_merge_picking/__openerp__.py",
+		"/home/isma/develop/stock_merge_picking_2/__openerp__.py",
+		"/home/isma/develop/stock_merge_picking_2/wizard/sale_merge_picking_view.xml",
+		"/home/isma/develop/stock_merge_picking_2/wizard/sale_merge_picking.py",
+		"/home/isma/develop/stock_merge_picking/__openerp__.py",
+		"/home/isma/develop/stock_merge_picking/__init__.py",
+		"/home/isma/develop/stock_merge_picking/wizard/merge_picking_view.xml",
+		"/home/isma/develop/stock_merge_picking_2/wizard/__openerp__.py",
+		"/home/isma/develop/stock_merge_picking_2/wizard/__init__.py",
+		"/home/isma/develop/stock_merge_picking/wizard/__init__.py",
+		"/home/isma/develop/stock_merge_picking_2/__init__.py",
+		"/home/isma/develop/stock_merge_picking_2/view/stock_view.xml",
+		"/home/isma/develop/stock_merge_picking_2/stock.py",
+		"/home/isma/develop/stock_merge_picking/stock.py",
+		"/home/isma/develop/sale_promotions/models/sale.py",
+		"/home/isma/develop/sale_promotions/models/rules.py",
+		"/home/isma/develop/sale_promotions/i18n/es.po",
+		"/home/isma/develop/sale_promotions/views/rule.xml",
+		"/home/isma/develop/sale_promotions/views/sale.xml",
+		"/home/isma/develop/sale_promotions/__openerp__.py",
+		"/home/isma/develop/multi_search_defaul_code/__openerp__.py",
+		"/home/isma/bazaar/micronaet-addons-utility/multi_search/__openerp__.py",
+		"/home/isma/bazaar/micronaet-addons-utility/multi_search/product.py",
+		"/home/isma/rails/railsbridge/OnlineShop/app/controllers/orders_controller.rb",
+		"/home/isma/rails/railsbridge/OnlineShop/log/development.log",
+		"/home/isma/rails/railsbridge/OnlineShop/app/assets/javascripts/application.js",
+		"/home/isma/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/isma/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/isma/rails/railsbridge/OnlineShop/app/views/products/_form.html.erb",
+		"/home/isma/openerpsrv7/modules/product/product.py",
+		"/home/isma/bazaar/micronaet-addons-utility/multi_search/__init__.py",
+		"/home/isma/rails/railsbridge/OnlineShop/app/views/line_items/_line_item.erb",
+		"/home/isma/rails/railsbridge/OnlineShop/app/views/orders/_show_line_items_fields.erb",
+		"/home/isma/rails/railsbridge/OnlineShop/app/assets/stylesheets/application.css",
+		"/home/isma/rails/railsbridge/OnlineShop/app/views/orders/show.html.erb",
+		"/home/isma/rails/railsbridge/OnlineShop/app/views/orders/index.html.erb",
+		"/home/isma/rails/railsbridge/OnlineShop/.gitignore",
+		"/home/isma/rails/railsbridge/OnlineShop/app/views/orders/_line_items_fields.erb",
+		"/home/isma/rails/railsbridge/OnlineShop/app/views/products/_product.erb",
+		"/home/isma/rails/railsbridge/OnlineShop/app/views/products/show.html.erb",
+		"/home/isma/rails/railsbridge/OnlineShop/app/views/orders/_form.html.erb",
+		"/home/isma/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/isma/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/isma/rails/railsbridge/OnlineShop/app/views/orders/edit.html.erb",
+		"/home/isma/rails/railsbridge/OnlineShop/app/views/orders/show.json.jbuilder",
+		"/home/isma/openerpsrv/bin/start_openerp.py",
+		"/home/isma/openerpsrv7/bin/start_openerp",
+		"/home/isma/rails/railsbridge/OnlineShop/app/models/order.rb",
+		"/home/isma/rails/railsbridge/OnlineShop/app/models/line_item.rb",
+		"/home/isma/Escritorio/index.html",
+		"/home/isma/rails/railsbridge/OnlineShop/config/database.yml"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"pag",
+			"product_attri",
+			"left",
+			"search(",
+			"search",
+			"_",
+			"factura",
+			"invoice_quant",
+			"bc",
+			"product",
+			"partner_id_2",
+			"customer",
+			"cliente",
+			"l",
+			"picking_ids",
+			"#",
+			"account_invoice_obj",
+			".",
+			"picking_pool",
+			"ids",
+			"def is_c",
+			"print",
+			"class",
+			"do_target",
+			"target pic",
+			"manual",
+			"print",
+			"_(",
+			"print",
+			"if",
+			"print",
+			"\"\n",
+			"print",
+			"menuitem",
+			"promotion_rule",
+			"sprintf",
+			"menuitem",
+			"promos.rules.conditions.exps",
+			"promos.rules.conditions.expres",
+			"promos.rules.conditions.exps",
+			"get",
+			"view_promotion_cond_expr_tree",
+			"product_id",
+			"parameter",
+			"parameters",
+			"+7",
+			"comment",
+			"search",
+			"def sear",
+			"+b\"",
+			"+k\"",
+			"bar"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "/home/isma/rails/railsbridge/OnlineShop"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "config/routes.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1976,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								269,
+								269
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/helpers/sessions_helper.rb",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 26,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								26,
+								26
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/controllers/sessions_controller.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 488,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								488,
+								488
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/views/sessions/index.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 70,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								48,
+								48
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 288.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
