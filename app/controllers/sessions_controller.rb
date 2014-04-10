@@ -1,22 +1,23 @@
 class SessionsController < ApplicationController
 
 	def index
+		print session[:user_id]
 	end
 
 	def login
 
 		if user = User.find_by(email: params[:email])
 			if current_user = user.authenticate(params[:password])
-				flash[:notice] = "logged in"
-				render '/orders'
+				session[:user_id] = user.id
+				redirect_to root_url
 			else
-				flash.now[:notice] = "Password is incorrect"
+				flash.now[:error] = "Password is incorrect"
+				render :index
 			end
 		else
-			flash.now[:notice] = "Email is incorrect"
+			flash.now[:error] = "Email is incorrect"
+			render :index
 		end
-
-		render :index
 	end
 
 end
