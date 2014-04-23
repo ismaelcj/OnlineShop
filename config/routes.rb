@@ -8,6 +8,7 @@ OnlineShop::Application.routes.draw do
 
   get :login, to: 'sessions#index'
   post :login, to: 'sessions#login'
+  get :logout, to: 'sessions#logout'
 
 
   # The priority is based upon order of creation: first created -> highest priority.

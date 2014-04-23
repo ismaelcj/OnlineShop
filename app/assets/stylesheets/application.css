@@ -12,6 +12,34 @@
  *= require_tree .
  */
 
+html, body, h1{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	margin-top: 6em;
+}
+
+header{
+	position: fixed;
+	width: 100%;
+	top: 0;
+	padding: 1em;
+	background-color: lightskyblue;
+}
+
+header a{
+	text-decoration: none;
+}
+header a:hover{
+	text-decoration: underline;
+}
+header h1 a:hover{
+	text-decoration: none;
+}
+
+
 table td{
 	padding: 0 1em
 }
@@ -34,9 +62,21 @@ table tr:hover{
 	background-color: #f66;
 }
 
+.container{
+	width: 95%;
+	max-width: 1500px;
+	margin: 0 auto;
+}
+
 .error{
 	background-color: #f00;
 	border-color: #900;
 	padding: 1em;
 	color: #fff;
+}
+
+.login{
+	float: right;
+	margin-right: 2em;
+	margin-top: -1.5em;
 }

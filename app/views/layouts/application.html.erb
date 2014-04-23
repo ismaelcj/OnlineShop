@@ -8,7 +8,26 @@
 </head>
 <body>
 
+<header>
+	<h1><%= link_to 'OnlineShop', :root %></h1>
+	<div class="login">
+		<% if session[:login] %>
+		<%= link_to session[:user_name]+" "+session[:user_lastname], edit_user_path(session[:user_id]) %> |
+		<%= link_to 'Logout', :logout %>
+		<% else %>
+		<%= link_to 'Login', :login %> | <a href="#">Sign in</a>
+		<% end %>
+	</div>
+</header>
+
+<div class="container">
+<p id="notice"><%= notice %></p>
+<% if error %>
+<p class="error"><%= error %></p>
+<% end %>
+
 <%= yield %>
 
+</div>
 </body>
 </html>
