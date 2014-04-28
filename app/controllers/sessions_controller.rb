@@ -1,48 +1,38 @@
 class SessionsController < ApplicationController
+	before_action :only_not_logged_in_user!, except: :destroy
 
-	def index
-		puts "\n********** index **********\n"
-
-		# reset_session
-		puts "session[:user_id]: #{session[:user_id]}"
-		puts "session[:login]: #{session[:login]}"
-		if session[:login]
-			flash[:notice] = "Ya estás logeado"
-			redirect_to root_url
-		end
-
-		puts "\n\n********** ***** **********\n"
+	def new
 	end
 
-	def login
+	def create
 		puts "\n********** login **********"
 
 		if user = User.find_by(email: params[:email])
 			puts "email correct"
-			if current_user = user.authenticate(params[:password])
+			if user.authenticate(params[:password])
 				puts "password correct"
 				session[:user_id] = user.id
-				session[:user_name] = user.name
-				session[:user_lastname] = user.last_name
-				session[:login] = true
-				redirect_to root_url
+				redirect_to root_url, :notice => "You are now logged in!"
 			else
 				puts "password incorrect"
 				flash.now[:error] = "Password is incorrect"
-				render :index
+				render :new
 			end
 		else
 			puts "email incorrect"
 			flash.now[:error] = "Email is incorrect"
-			render :index
+			render :new
 		end
 
 		puts "********** ***** **********\n"
 	end
 
-	def logout
-		flash.now[:error] = "TO DO: logout"
-		render :index
+	def destroy
+		puts "********** destroy **********"
+		session[:user_id] = nil
+		redirect_to root_url, :notice => "Logged out!"
+
+		puts "********** ******* **********"
 	end
 
 end

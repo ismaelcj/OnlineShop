@@ -11,11 +11,11 @@
 <header>
 	<h1><%= link_to 'OnlineShop', :root %></h1>
 	<div class="login">
-		<% if session[:login] %>
-		<%= link_to session[:user_name]+" "+session[:user_lastname], edit_user_path(session[:user_id]) %> |
-		<%= link_to 'Logout', :logout %>
+		<% if current_user %>
+		<%= link_to session[:user_name]+" "+ session[:user_lastname], edit_user_path(session[:user_id]) %> |
+		<%= link_to 'Logout', session_path(current_user), :method => :delete %>
 		<% else %>
-		<%= link_to 'Login', :login %> | <a href="#">Sign in</a>
+		<%= link_to 'Login', new_session_path %> | <a href="#">Sign up</a>
 		<% end %>
 	</div>
 </header>
