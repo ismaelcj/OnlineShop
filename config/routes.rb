@@ -3,7 +3,8 @@ OnlineShop::Application.routes.draw do
 	resources :orders
 	resources :products
 	resources :sessions, only: [:new, :create, :destroy]
-	root 'products#index'
+
+	root to: 'static_pages#home'
 
 	# get :login, to: 'sessions#index'
 	# post :login, to: 'sessions#login'

@@ -1,0 +1,12 @@
+<div class="box">
+	<h1>Welcome to OnlineShop</h1>
+
+	<% unless current_user %>
+		<%= link_to 'Sign up now', new_user_path, class: "btn rounded btn-blue" %>
+
+		<p><small>
+			Already a member?
+			<%= link_to 'Login here', new_session_path %>
+		</small></p>
+	<% end %>
+</div>
