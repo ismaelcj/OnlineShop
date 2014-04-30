@@ -12,17 +12,25 @@
 	<h1><%= link_to 'OnlineShop', :root %></h1>
 	<div class="login">
 		<% if current_user %>
-		<%= link_to session[:user_name]+" "+ session[:user_lastname], edit_user_path(session[:user_id]) %> |
+		<%= link_to current_user.name + " " + current_user.last_name, edit_user_path(session[:user_id]) %> |
 		<%= link_to 'Logout', session_path(current_user), :method => :delete %>
 		<% else %>
 		<%= link_to 'Login', new_session_path %> | <%= link_to 'Sign up', new_user_path %>
 		<% end %>
 	</div>
+	<nav>
+		<ul class="mainnav">
+			<li><a href="#">Products</a></li>
+			<li><a href="#">Orders</a></li>
+			<li><a href="#">Users</a></li>
+		</ul>
+	</nav>
 </header>
 
 <div class="container">
-<p id="notice"><%= notice %></p>
-<% if error %>
+<% if notice %>
+<p class="notice"><%= notice %></p>
+<% elsif error %>
 <p class="error"><%= error %></p>
 <% end %>
 
